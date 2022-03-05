@@ -1,0 +1,194 @@
+html, body {
+    height: 125%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: white;
+}
+
+.header {
+    background-color: white;
+    flex: 0.01;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+}
+
+.fill-height-or-more {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.fill-height-or-more > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav-bar{
+    width: 100%;
+}
+
+.nav-bar table{
+    border-collapse: collapse;
+    top: 0px;
+    width: 100%;
+}
+
+.nav-bar  td{
+    padding: 6px;
+}
+
+.nav-bar tr:first-child {
+    background-color: white;
+    width: 100%;
+    
+}
+
+.nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.nav-bar li {
+    float: left;
+    padding: 0em 6px;
+}
+
+.nav-bar li a {
+    border-top: 3px solid white;
+    display: block;
+    padding: 1em;
+    text-align: center;
+    text-decoration: none;
+    color: #000088;
+    font-family: Avenir, sans-serif;
+    font-size: 14pt;
+    font-weight: 500;
+}
+
+.nav-bar li a:hover {
+    border-top: 3px solid rgb(150,207,234);
+    color: rgb(150,207,234);
+}
+
+.nav-bar .active {
+    border-top: 3px solid rgb(150,207,234);
+    color: rgb(150,207,234);
+}
+        
+
+.nav-bar .donate-button{
+    width: 125px; 
+    height: 50px;
+    background-color: rgb(213, 112, 153);
+    border: none;
+    color: white;
+    font-family: sans-serif;
+    font-style: bolder;
+    font-size: 14pt;
+    padding: 6px 12px;
+    text-align: center;
+    margin: 0em 6px;
+}
+
+.nav-bar .donate-button:hover{
+    background-color: #000088;
+}
+
+.nav-bar .search-container {
+    float: right;
+    border: 1px solid #ccc; 
+    border-radius: 1em;
+    padding: 4px 6px;
+    height: 22px;
+}
+
+.nav-bar input[type=text] {
+    font-size: 14px;
+    width: 125px;
+    border: none;
+    outline: none;
+}
+
+
+.nav-bar .search-container button {
+    float: right;
+    padding: 0px;
+    font-size: 17px;
+    color: #22267A;
+    border: none;
+    cursor: pointer;
+    background: white;
+}
+
+.nav-bar .search-container button:hover {
+  color: rgb(150,207,234);
+}
+
+
+.content {
+  background:#efefef;;
+  flex: 20;
+}
+
+.before-footer{
+    border-top: 6px solid white;
+    background: rgb(150,207,234);
+    flex: 8;
+}
+
+.footer p{
+    margin: 0px;
+    color: white;
+    font-family: Avenir, sans-serif;
+    font-size: 10pt;
+}
+
+.footer table{
+    margin: 0px;
+    padding: 0px;
+    height: 6px;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: #22267A;
+}
+
+.footer td{
+    padding: 0px 6px;
+    text-align: center;
+}
+
+.icons{
+    display:inline;
+}
+
+.footer .links{
+    float: right;
+}
+
+.footer .links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer .links li {
+    float: left;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.footer .links li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 0em 1em;
+    font-size: 14pt;
+}
